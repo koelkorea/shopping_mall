@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+#storeLogo{
+    text-align: left;
+    cursor: pointer;
+    margin-left: 3vw;
+}
+
+#cartLogo{
+    text-align: right;
+    cursor: pointer;
+    margin-right: 3vw;
+}

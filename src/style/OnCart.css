@@ -1,0 +1,65 @@
+img {
+    display: block;
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+
+.onCartSection {
+    width: 80%;
+    margin: 5%;
+    padding: 30px;
+}
+
+table {
+    border-top: solid 1.5px black;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+
+thead {
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody {
+    font-size: 12px;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    border-bottom: 1px solid lightgrey;
+}
+
+
+.price {
+    font-weight: bold;
+}
+
+
+.cartButtonDiv {
+    text-align: right;
+}
+
+.cartButtonStyle {
+    width: 15%;
+    height: 100%;
+    font-size: 16px;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+.cartButtonStyle.buy {
+    background-color: darkgrey;
+    border: 1px lightgray solid;
+}
+
+.cartButtonStyle.cart {
+    background-color:cornflowerblue;
+    color: white;
+    border: none;
+}

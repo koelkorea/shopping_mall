@@ -1,0 +1,64 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+}
+
+.detailsImgDiv {
+
+    width: 400px;
+    height: 400px;
+    
+}
+
+.detailsImg {
+    width: inherit;
+    height: inherit;
+    object-fit: fill;
+}
+
+.detailsInfoDiv {
+    display: flex;
+    flex-direction: column;
+    margin:  0px 3%;
+    justify-content: space-between;
+}
+
+.detailsInfoDiv_1 {
+    height: 70%;
+    background-color: bisque;
+}
+
+.detailsInfoDiv_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.detailsDiv {
+    margin: 3%;
+}
+
+.detailsButtonDiv {
+    display: flex;
+    width: 50%;
+}
+
+.detailButtonStyle {
+    width: 40%;
+    height: 100%;
+    font-size: 16px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.detailButtonStyle.buy {
+    background-color: darkgrey;
+    border: 1px lightgray solid;
+}
+
+.detailButtonStyle.cart {
+    background-color:cornflowerblue;
+    color: white;
+    border: none;
+}

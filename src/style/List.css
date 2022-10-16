@@ -1,0 +1,81 @@
+
+.goodsList{
+    /* display: flex;
+    flex-wrap : wrap; */
+    display: grid;
+    grid-gap: 32px;
+    grid-row-gap: 96px;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 1fr;
+    margin-top: 3vh;
+    /* width: 1200px; */
+    /* height: 400px; */
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .goodsList{
+        /* display: flex;
+        flex-wrap : wrap; */
+        display: grid;
+        grid-gap: 32px;
+        grid-row-gap: 96px;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 1fr;
+        margin-top: 3vh;
+        /* width: 1200px; */
+        /* height: 400px; */
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .goodsList{
+        /* display: flex;
+        flex-wrap : wrap; */
+        display: grid;
+        grid-gap: 32px;
+        grid-row-gap: 96px;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 1fr;
+        margin-top: 3vh;
+        /* width: 1200px; */
+        /* height: 400px; */
+        
+    }
+}
+
+.listSpan{
+    /* width: 300px; */
+    background-color: #e1e1e1;
+    cursor: pointer;
+}
+
+
+
+.listImgDiv{
+    height:50%;
+}
+
+.listImg{
+    width:90%;
+    height:90%;
+    margin: 0px 5% 5% 5%;
+}
+
+
+
+
+
+.listDescriptionDiv{
+    height:20%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* white-space: nowrap; */
+
+}
+
+.listDiv{
+    height:10%;
+}
