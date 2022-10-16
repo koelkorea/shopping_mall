@@ -1,4 +1,4 @@
-# COJAM-NFT-CLONE 하는 토이 프로젝트
+# 쇼핑몰 구현
 
 ## 작업에 사용한 모듈
 > - npx create-react-app 명령어에 필요한 기본 react 패키지
